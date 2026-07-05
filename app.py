@@ -17,8 +17,8 @@ budget = st.sidebar.selectbox("Budget", ["Budget-friendly", "Standard", "Luxury"
 interests = st.sidebar.text_area("Interests (e.g., street food, history, hiking)")
 
 # 4. Main page title and description
-st.title("✈️ Tvisha Adiga Smart AI Travel Agent")
-st.write("Welcome! Tell me where you want to go, and I'll generate a custom daily itinerary for you.")
+st.title("✈️ Tvisha Smart AI Travel Agent")
+st.write("Welcome! Tell me where you want to go, and I'll generate a custom itinerary for you.")
 
 # 5. What happens when the user clicks the button?
 if st.button("Generate Itinerary"):
