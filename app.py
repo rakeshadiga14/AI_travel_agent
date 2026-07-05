@@ -31,7 +31,7 @@ if st.button("Generate Itinerary"):
         with st.spinner("Your AI agent is crafting the perfect trip..."):
             try:
                 # Initialize the Gemini client (it automatically finds the API key)
-                client = genai.Client(api_key="AQ.Ab8RN6JwxOtvoYjYc0BSYeJQ-1M9AVY_ig_Qt9TbQjF4AOLKmg")
+                client = genai.Client(api_key="AIzaSyD6NdcH1WHe5tO13lcgTVL55scoUZc8E4k")
                 
                 # Construct the specific instructions for the AI
                 prompt = f"""
