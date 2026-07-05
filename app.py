@@ -1,4 +1,5 @@
 import streamlit as st
+api_key = st.secrets["gemini_api_key"]
 import os
 from dotenv import load_dotenv
 from google import genai
